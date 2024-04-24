@@ -71,3 +71,7 @@ INFO:api.routes.movies:Movies item with ID '0-7198-7142-5"' not found
 INFO:api.routes.movies:Movies item with ID '0-7198-7142-5' found
 INFO:api.routes.movies:Movies item with title 'baywatch' found
 INFO:api.routes.movies:Movies item with ID '0-7198-71434-2' not found
+INFO:api.routes.movies:Movies item with ID '0-229-62743-9' found
+INFO:api.routes.movies:New news item with ID '34532' has been created
+INFO:api.routes.movies:Movie item with ID '34532' has been updated
+INFO:api.routes.movies:Movies item with title 'baywatch' found
