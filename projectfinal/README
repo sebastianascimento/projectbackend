@@ -1,0 +1,32 @@
+README - Movie API
+
+Objetivo da aplicação
+A aplicação Movie API foi desenvolvida com o objetivo de 
+fornecer uma API para gerenciar informações sobre filmes. 
+Com esta API, os usuários podem obter detalhes sobre filmes, 
+como título, categoria, data de lançamento e plataforma de 
+streaming. Eles também podem adicionar novos filmes, atualizar 
+informações existentes e excluir filmes.
+
+Justificação técnica da escolha da framework
+A framework escolhida para desenvolver esta aplicação foi o 
+FastAPI. FastAPI é uma framework web rápida, moderna, fácil 
+de aprender e altamente eficiente para criação de APIs em 
+Python.
+
+Processo de instalação
+Para instalar e executar a aplicação Movie API,
+ siga estas etapas:
+
+1.Certifique-se de ter o Python 3.7 ou superior instalado em sua máquina.
+2.Clone o repositório do projeto
+3.Navegue até o diretório do projeto
+4.Instale as dependências usando o pip
+5. Inicie o servidor da aplicão com o Docker com os seguintes comandos:
+    docker-compose build
+    docker-compose up
+6. A API estará disponicel em 'http://localhost:8000'
+7. A API oferece varios endpoints que estará disponivel em 'http://localhost:8000/docs'
+
+
+

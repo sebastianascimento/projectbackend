@@ -1,0 +1,73 @@
+WARNING:api.routes.news:News item with ID 'sorted-by-launch' not found
+ERROR:api.routes.news:An unexpected error occurred while retrieving news item with ID 'sorted-by-launch': 404: Not Found
+Traceback (most recent call last):
+  File "/app/api/routes/news.py", line 49, in get_new
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
+fastapi.exceptions.HTTPException: 404: Not Found
+WARNING:api.routes.news:News item with ID 'sorted-by-launch' not found
+ERROR:api.routes.news:An unexpected error occurred while retrieving news item with ID 'sorted-by-launch': 404: Not Found
+Traceback (most recent call last):
+  File "/app/api/routes/news.py", line 49, in get_new
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
+fastapi.exceptions.HTTPException: 404: Not Found
+ERROR:root:Error loading and sorting news data by launch date: unconverted data remains: 17
+ERROR:root:Error retrieving and sorting news items by launch date: get_news_sorted_by_launch() missing 1 required positional argument: 'launch'
+ERROR:root:Error loading and sorting news data by launch date: unconverted data remains: 17
+ERROR:root:Error retrieving and sorting news items by launch date: get_news_sorted_by_launch() missing 1 required positional argument: 'launch'
+INFO:api.routes.news:News item with ID '0-229-62743-9' found
+INFO:api.routes.news:News item with title 'baywatch' found
+ERROR:root:Error retrieving and sorting news items by launch date: get_news_sorted_by_launch() missing 1 required positional argument: 'launch'
+INFO:api.routes.news:New news item with ID '45-824' has been created
+ERROR:root:Error retrieving and sorting news items by launch date: get_news_sorted_by_launch() missing 1 required positional argument: 'launch'
+WARNING:api.routes.news:News item with ID 'açao' not found
+ERROR:api.routes.news:An unexpected error occurred while retrieving news item with ID 'açao': 404: Not Found
+Traceback (most recent call last):
+  File "/app/api/routes/news.py", line 49, in get_new
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
+fastapi.exceptions.HTTPException: 404: Not Found
+INFO:api.routes.news:News item with ID '45-824' found
+INFO:api.routes.news:News item with ID '0-08-523776-0' found
+INFO:api.routes.news:News item with ID '0-431-19442-4' found
+INFO:root:News item with ID '45-824' has been deleted.
+INFO:api.routes.news:News item with ID '45-824' has been deleted
+INFO:api.routes.movies:Movies item with ID '0-02-725392-9' found
+INFO:api.routes.movies:New news item with ID '0-7198-7142-4' has been created
+INFO:root:Movie item with ID '0-7198-7142-4' has been deleted.
+INFO:api.routes.movies:News item with ID '0-7198-7142-4' has been deleted
+INFO:api.routes.movies:Movie item with ID '0-7198-7142-5' has been updated
+INFO:api.routes.movies:Movies item with ID 'baywatch' not found
+INFO:api.routes.movies:Movies item with ID 'pianista' not found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with ID 'comedia' not found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with ID 'baywatch' not found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with title 'baywatch' not found
+INFO:api.routes.movies:Movies item with title 'baywatch' found
+INFO:api.routes.movies:Movies item with ID 'drama' not found
+INFO:api.routes.movies:Movies item with ID 'comedia' not found
+INFO:api.routes.movies:Movies item with ID 'comedia' not found
+ERROR:root:Error retrieving news items by category 'drama': 'tittle'
+ERROR:root:Error retrieving news items by category 'drama': 'tittle'
+ERROR:root:Error retrieving news items by category 'açao': 'tittle'
+ERROR:root:Error retrieving news items by category 'drama': 'tittle'
+ERROR:root:Error retrieving news items by category 'drama': 'tittle'
+INFO:api.routes.movies:Movies item with ID '0-431-19442-4"' not found
+INFO:api.routes.movies:Movies item with title 'baywatch' found
+INFO:api.routes.movies:Movies item with ID '0-431-19442-4"' not found
+INFO:api.routes.movies:Movies item with ID '0-431-19442-4"' not found
+INFO:api.routes.movies:Movies item with ID '0-431-19442-4' found
+INFO:api.routes.movies:Movies item with ID '0-431-19442-4' found
+INFO:api.routes.movies:News item with ID '1-273-78453-7' already exists
+INFO:api.routes.movies:New news item with ID '1-273-78453-5' has been created
+INFO:root:Movie item with ID '1-273-78453-5' has been deleted.
+INFO:api.routes.movies:News item with ID '1-273-78453-5' has been deleted
+INFO:api.routes.movies:Movie item with ID '0-7198-7142-5' has been updated
+INFO:api.routes.movies:Movies item with title 'lift' found
+INFO:api.routes.movies:Movies item with ID '0-7198-7142-5"' not found
+INFO:api.routes.movies:Movies item with ID '0-7198-7142-5' found
+INFO:api.routes.movies:Movies item with title 'baywatch' found
+INFO:api.routes.movies:Movies item with ID '0-7198-71434-2' not found
