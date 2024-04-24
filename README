@@ -18,10 +18,15 @@ Processo de instalação
 Para instalar e executar a aplicação Movie API,
  siga estas etapas:
 
-1.Certifique-se de ter o Python 3.7 ou superior instalado em sua máquina.
+1.Certifique-se de ter o Python 3.11 ou superior instalado em sua máquina.
 2.Clone o repositório do projeto
+    https://github.com/sebastianascimento/projectbackend.git
 3.Navegue até o diretório do projeto
+    cd projectbackend
 4.Instale as dependências usando o pip
+    pip install poetry
+    pip install fastapi
+    pip install uvicorn
 5. Inicie o servidor da aplicão com o Docker com os seguintes comandos:
     docker-compose build
     docker-compose up
